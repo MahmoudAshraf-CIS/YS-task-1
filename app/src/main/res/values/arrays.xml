@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="orderByList">
+        <item>Home</item>
+        <item>World</item>
+        <item>National</item>
+        <item>Politics</item>
+        <item>Nyregion</item>
+        <item>Business</item>
+        <item>Opinion</item>
+        <item>Technology</item>
+        <item>Science</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+      <ImageView
+          android:id="@+id/img"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:adjustViewBounds="true"
+          android:scaleType="fitCenter"
+
+          />
+
+      <TextView
+          android:id="@+id/copyrights"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="15dp"
+
+          android:textSize="10sp" />
+
+      <TextView
+          android:id="@+id/title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:layout_marginTop="15dp"
+          android:text="As U.S.A Adds Troops in Afghanistan,Trump's Strategy Remains Undefinde"
+          android:textColor="#212121"
+          android:textSize="20dp" />
+
+      <TextView
+          android:id="@+id/abstrac"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:text="Military experts say that in outsourcing decisions on troop levels to the Pentagon, the president has abdicated his duty to defend troop deployments."
+          android:textColor="#37474f"
+          android:textSize="15dp" />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_margin="5dp"
+          android:background="#737373" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/date"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_weight="1"
+             android:text="jun 18" />
+
+         <View
+             android:id="@+id/read_later"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_gravity="center"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:orientation="horizontal">
+
+
+         </View>
+
+         <LinearLayout
+             android:id="@+id/share"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHARE"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/share" />
+         </LinearLayout>
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>
