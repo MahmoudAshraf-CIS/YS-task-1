@@ -9,7 +9,7 @@ main functionality :-
 ------screenshots------
 <img src="screens/8.png" width="1000" height="640" />
 <img src="screens/9.png" width="1000" height="640" />
-<img src="screens/1.png" width="320" height="640" />
+<img src="https://github.com/MahmoudAshraf-CIS/YS-task-1/blob/master/screens/1.PNG" width="320" height="640" />
 <img src="screens/2.png" width="320" height="640" />
 <img src="screens/3.png" width="320" height="640" />
 <img src="screens/4.png" width="320" height="640" />
